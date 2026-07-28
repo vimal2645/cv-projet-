@@ -1,0 +1,13 @@
+# Cricket Pose Analyzer AI - Core Dependencies
+opencv-python>=4.8.0
+mediapipe>=0.10.0
+numpy>=1.24.0
+pandas>=2.0.0
+matplotlib>=3.7.0
+plotly>=5.15.0
+reportlab>=4.0.0
+streamlit>=1.28.0
+scipy>=1.11.0
+moviepy>=1.0.3
+pillow>=10.0.0
+ultralytics>=8.0.0

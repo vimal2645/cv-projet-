@@ -1,0 +1,90 @@
+# ==============================================================================
+# Cricket Pose Analyzer AI - Git Ignore
+# ==============================================================================
+
+# Python Bytecode & Cache
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Testing & Linting Cache
+.pytest_cache/
+.coverage
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+env.bak/
+venv.bak/
+
+# Machine Learning Weights & Models
+*.pt
+*.pth
+*.onnx
+*.tflite
+*.engine
+*.bin
+yolov8*.pt
+
+# Runtime Generated Outputs & Media Files
+cricket_pose_ai/outputs/*
+!cricket_pose_ai/outputs/.gitkeep
+cricket_pose_ai/temp/*
+!cricket_pose_ai/temp/.gitkeep
+
+# Media Formats & Data Exports
+*.mp4
+*.avi
+*.mov
+*.mkv
+*.webm
+*.pdf
+*.zip
+
+# Logs & Temporary Files
+*.log
+*.tmp
+*.temp
+
+# IDEs and Text Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+
+# Operating System Files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+Desktop.ini
+
+# Streamlit Local Configuration & Secrets
+.streamlit/secrets.toml
